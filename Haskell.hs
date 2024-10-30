@@ -62,6 +62,7 @@ elemInList 1 (h:t) = h
 elemInList n (h:t) = elemInList (n-1) t
 elemInList n [] =0
 
+-----------------------------------------------------------------------------------------
 
 nearest :: [Int]->Int->Int
 
